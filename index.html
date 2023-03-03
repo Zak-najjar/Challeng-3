@@ -3,45 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500&family=Montserrat:ital,wght@0,600;1,600&family=Outfit:wght@500&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Results summary component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
+  <div class="cont">
+    <div class="cont-2">
+      <div class="result"> Your Result</div>
+      <div class="score">
+        <span>76</span>
+        <span>of 100</span>
+      </div>
+      <main>
+        <h1>Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </main>
+    </div>
+    <div class="sum">Summary</div>
+    <aside>
+      <div class="reac">
+      <div>
+        <img src="./assets/images/icon-reaction.svg" alt="Reac-icon">
+        <span> Reaction</span>
+      </div>
+      <div>
+          <span>80 </span>
+          <span>/ 100</span>
+        </div>
+    </div> 
+    <div class="mem">
+      <div>
+        <img src="./assets/images/icon-memory.svg" alt="mem-icon">
+        <span> Memory</span>
+      </div>
+      <div>
+        <span>92</span>
+        <span>/ 100</span>
+      </div>
+    </div>
+    <div class="ver">
+      <div>
+      <img src="./assets/images/icon-verbal.svg" alt="verb-icon">
+      <span> Verbal</span>
+    </div>
+      <div>
+        <span>61</span>
+        <span>/ 100</span>
+      </div>
+    </div>
+    <div class="vis">
+      <div>
+        <img src="./assets/images/icon-visual.svg" alt="vis-icon">
+        <span> Visual</span>
+      </div>
+        <div>
+        <span>72</span>
+        <span>/ 100</span>
+      </div>
+    </div>
+    </aside>
+    <div class="continue">
+      Continue
+    </div>
+  </div>
+  <footer class="attribution" hidden>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>
