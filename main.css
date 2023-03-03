@@ -186,3 +186,6 @@ p {
   background-color: #303b59;
   text-align: center;
 }
+.continue:hover {
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
