@@ -42,8 +42,8 @@ body  {
   margin: 25px 0 25px;
 }
 .score {
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
   font-size: 15px;
   border-radius: 50%;
   background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
@@ -52,6 +52,7 @@ body  {
   align-items: center;
   align-self: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 .score span:last-child {
   filter: opacity(.5);
@@ -60,6 +61,7 @@ body  {
 }
 .score span:first-child  {
   font-size: 6em;
+  font-weight: bold;
 }
 main  {
   font-size: 15px;
